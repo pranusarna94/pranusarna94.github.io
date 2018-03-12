@@ -71,11 +71,12 @@ a:link{
 	width: 100%
 	background-color: tomato;
 	height: 100px
+	margin-bottom: 30px; ;
 }
 
 .card-image{
 	width: 100%;
-	background-color: tomato;
+	background-color: lightgrey;
 	height: 200px;
 	margin-bottom: 10px;
 }
