@@ -1,0 +1,101 @@
+/*blue color: 6763FF*/
+/*yellow color: FEC739*/
+/*dark grey/*: */
+
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+.bg-container{
+	background-color: #6763FF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.heading-1{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+.intro-para{
+	font-family: 'Roboto Mono';
+	color: white;
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 1.5em;
+	margin-top: 8px;
+}
+
+.banner-link{
+	color: #FEC739;
+	text-decoration: underline;
+}
+
+.banner-para{
+	font-family: 'Roboto Mono';
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.heading-2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 40px;
+	color: #6763FF;
+	margin-bottom: 30px;
+}
+
+.card {
+	margin-bottom: 30px;
+}
+
+.work-space {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+
+.card-body {
+	font-family: 'Roboto Mono';
+	text-align: left;
+}
+
+.card-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.card-text {
+	font-family: 'Roboto Mono';
+	font-size: 18px;
+	padding-top: 3px;
+	
+}
+
+.card-button{
+	font-family: 'Roboto Mono';
+	font-size: 16px;
+	padding-top: 5px;
+	font-weight: 700;
+}
+
+.card-image{
+	background-color: lightgrey;
+	height: 200px;
+	border-radius: 4, 4, 0, 0;
+}
+
+
+
+
