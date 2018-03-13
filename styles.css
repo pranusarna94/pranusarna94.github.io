@@ -1,6 +1,6 @@
 /*blue color: 6763FF*/
 /*yellow color: FEC739*/
-/*dark grey/*: */
+/*dark grey/*: 173143 */
 
 
 *{
@@ -19,7 +19,7 @@
 .bg-container{
 	/*background-color: #6763FF;*/
 	padding-top: 14vh;
-	padding-bottom: 16vh;
+	padding-bottom: 14vh;
 }
 
 .heading-1{
@@ -106,11 +106,22 @@
 	padding-bottom: 70px;
 }
 
+.about-body{
+	font-family:  'Montserrat', sans-serif;
+	font-size: 1.5vw;
+	font-weight: 500;
+	color: #929292;
+	margin-bottom: 4vh;
+}
 
-
-
-
-
+.about-body-stalk{
+	font-family: 'Roboto Mono';
+	color: #9d9d9d;
+	font-size: 1vw;
+	font-weight: 700;
+	line-height: 6vw;
+	
+}
 
 
 
@@ -120,8 +131,8 @@
 @media only screen and (max-width: 600px) {
 	
 	.heading-1{
-		font-size: 8vw;
-		line-height: 10.5vw;
+		font-size: 8.5vw;
+		line-height: 11vw;
 	}
 
 	.heading-2{
@@ -134,12 +145,15 @@
 
 	.about-body{
 		font-size: 4.5vw;
+		line-height: 6.5vw;
 		
 	}
 
 	.about-body-stalk{
 		font-size: 3.5vw;
 	}
+
+	
 
 } 
 
@@ -150,32 +164,17 @@
 /*//////////////////////////////////////////////*/
 /*//////////////////////////////////////////////*/
 
-.about-body{
-	font-family:  'Montserrat', sans-serif;
-	font-size: 1.5vw;
-	font-weight: 500;
-	color: #929292;
-	margin-bottom: 4vh;
-}
-
-.about-body-stalk{
-	font-family: 'Roboto Mono';
-	color: #9d9d9d;
-	font-size: 1.3vw;
-	font-weight: 700;
-	margin-bottom: 30px;
-	line-height: 6vw;
-}
 
 
 .banner-link{
-	color: #6763FF;
+	color:#173143;
+	font-weight: 500;
 	text-decoration: underline;
 	transition: color 0.2s ease-out;
 }
 
 .banner-link:hover {
-	color: #4340AC;
+	color: #6763FF;
 }
 
 
@@ -186,14 +185,17 @@
 
 
 
-
-
-
-
-a:link{
+.card:link{
 	text-decoration: none;
 	margin: 0px
 	padding: 0px;
+}
+
+.footer{
+	position: absolute;
+	right: 0;
+	left: 0;
+	background-color: #efefef;
 }
 
 
