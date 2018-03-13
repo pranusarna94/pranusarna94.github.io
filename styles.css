@@ -10,14 +10,14 @@
 }
 
 .bg-container{
-	background-color: #6763FF;
+	/*background-color: #6763FF;*/
 	padding-top: 14vh;
 	padding-bottom: 16vh;
 }
 
 .heading-1{
 	font-family: 'Montserrat', sans-serif;
-	color: white;
+	color: #6763FF;
 	font-weight: 700;
 	font-size: 3.5vw;
 	line-height: 4.5vw;
@@ -49,7 +49,7 @@
 }
 
 .about-body{
-	font-family: 'Roboto Mono';
+	font-family:  'Montserrat', sans-serif;
 	font-size: 1.5vw;
 	font-weight: 500;
 	color: #173143;
@@ -115,13 +115,17 @@
 
 .banner-para{
 	font-family: 'Roboto Mono';
-	color: white;
+	color: #173143;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 700;
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
 
+
+.first{
+	margin-bottom: 20px
+}
 
 
 
@@ -148,6 +152,7 @@ a:link{
 	background-color: lightgrey;
 	height: 200px;
 	margin-bottom: 10px;
+	border-radius: 4px;
 }
 
 .card-image: hover{
