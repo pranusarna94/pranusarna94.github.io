@@ -25,10 +25,10 @@
 
 .heading-2{
 	font-family: 'Montserrat', sans-serif;
-	color: white;
+	color: red;
 	font-weight: 700;
 	font-size: 3vw;
-	color: #6763FF;
+	color: #FEC739;
 	margin-bottom: 30px;
 }
 
@@ -54,6 +54,14 @@
 	font-weight: 500;
 	color: #173143;
 	margin-bottom: 4vh;
+}
+
+.about-body-stalk{
+	font-family: 'Roboto Mono';
+	color: #9d9d9d;
+	font-size: 1.3vw;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
 
 
@@ -96,7 +104,7 @@
 }
 
 .banner-link{
-	color: #FEC739;
+	color: #6763FF;
 	text-decoration: underline;
 }
 
