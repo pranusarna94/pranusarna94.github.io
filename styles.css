@@ -39,6 +39,23 @@
 	color: #173143;
 }
 
+.card-body{
+	font-family: 'Roboto Mono';
+	font-size: 1.2vw;
+	font-weight: 500;
+	color: #9D9D9D;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.about-body{
+	font-family: 'Roboto Mono';
+	font-size: 1.5vw;
+	font-weight: 500;
+	color: #173143;
+}
+
+
 
 /*/////////////////////////*/
 /*css for small devices < 600px*/
@@ -125,19 +142,8 @@ a:link{
 
 
 
-.card-body{
-	font-family: 'Roboto Mono';
-	font-size: 18px;
-	color: #9D9D9D;
-	margin-bottom: 5px;
-}
 
-.card-link{
-	font-family: 'Roboto Mono';
-	font-size: 18px;
-	color: #FEC739;
-	font-weight: 700;
-}
+
 
 
 
