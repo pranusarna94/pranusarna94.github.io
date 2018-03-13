@@ -23,20 +23,40 @@
 	line-height: 4.5vw;
 }
 
+.heading-2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 3vw;
+	color: #6763FF;
+	margin-bottom: 30px;
+}
+
+.card-heading{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 2vw;
+	color: #173143;
+}
+
 
 /*/////////////////////////*/
-  /*css for small devices*/
+/*css for small devices < 600px*/
 /*//////////////////////////*/
 @media only screen and (max-width: 600px) {
 	
 	.heading-1{
-		font-family: 'Montserrat', sans-serif;
-	color: white;
-	font-weight: 700;
-	font-size: 7vw;
-	line-height: 9.5vw;
+		font-size: 8vw;
+		line-height: 10.5vw;
 	}
 
+	.heading-2{
+		font-size: 7vw;
+	}
+
+	.card-heading{
+		font-size: 5vw;
+	}
 
 } 
 
@@ -65,14 +85,7 @@
 	margin-bottom: 20px;
 }
 
-.heading-2{
-	font-family: 'Montserrat', sans-serif;
-	color: white;
-	font-weight: 700;
-	font-size: 40px;
-	color: #6763FF;
-	margin-bottom: 30px;
-}
+
 
 
 
@@ -84,51 +97,47 @@
 a:link{
 	text-decoration: none;
 	margin: 0px
-	padding: 0px;}
+	padding: 0px;
+}
 
 
-	.card{
-		margin-bottom: 50px;
-		
-	}
+.card{
+	margin-bottom: 50px;
 
-	.card-image{
-		width: 100%;
-		background-color: lightgrey;
-		height: 200px;
-		margin-bottom: 10px;
-	}
+}
 
-	.card-image: hover{
-		width: 110%;
-		height: 210px;
-		-moz-box-shadow: 1px 1px 5px #999;
-		-webkit-box-shadow: 1px 1px 5px #999;
-		box-shadow: 1px 1px 5px #999;
-		-webkit-transition: all .2s ease;
-		transition: all .2s ease;
-	}
+.card-image{
+	width: 100%;
+	background-color: lightgrey;
+	height: 200px;
+	margin-bottom: 10px;
+}
 
-	.card-heading{
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 700;
-		font-size: 25px;
-		color: #173143;
-	}
+.card-image: hover{
+	width: 110%;
+	height: 210px;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 5px #999;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+}
 
-	.card-body{
-		font-family: 'Roboto Mono';
-		font-size: 18px;
-		color: #9D9D9D;
-		margin-bottom: 5px;
-	}
 
-	.card-link{
-		font-family: 'Roboto Mono';
-		font-size: 18px;
-		color: #FEC739;
-		font-weight: 700;
-	}
+
+.card-body{
+	font-family: 'Roboto Mono';
+	font-size: 18px;
+	color: #9D9D9D;
+	margin-bottom: 5px;
+}
+
+.card-link{
+	font-family: 'Roboto Mono';
+	font-size: 18px;
+	color: #FEC739;
+	font-weight: 700;
+}
 
 
 
