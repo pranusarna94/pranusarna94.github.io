@@ -35,7 +35,7 @@
 .card-heading{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	color: #173143;
 }
 
@@ -53,6 +53,7 @@
 	font-size: 1.5vw;
 	font-weight: 500;
 	color: #173143;
+	margin-bottom: 4vh;
 }
 
 
@@ -73,6 +74,12 @@
 
 	.card-heading{
 		font-size: 5.5vw;
+	}
+
+	.about-body{
+
+		font-size: 4.5vw;
+		
 	}
 
 } 
