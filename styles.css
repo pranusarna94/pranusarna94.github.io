@@ -9,6 +9,13 @@
 
 }
 
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*TOP BANNER AREA STARTS*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
 .bg-container{
 	/*background-color: #6763FF;*/
 	padding-top: 14vh;
@@ -19,17 +26,50 @@
 	font-family: 'Montserrat', sans-serif;
 	color: #6763FF;
 	font-weight: 700;
-	font-size: 3.5vw;
-	line-height: 4.5vw;
+	font-size: 3.8vw;
+	line-height: 5vw;
 }
 
-.heading-2{
-	font-family: 'Montserrat', sans-serif;
-	color: red;
+.banner-para{
+	font-family: 'Roboto Mono';
+	color: #173143;
+	font-size: 16px;
 	font-weight: 700;
-	font-size: 3vw;
-	color: #FEC739;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*CARD STYLING STARTS*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+
+.card{
+	margin-bottom: 50px;
+}
+
+
+
+.card-image{
+	width: 100%;
+	background-color: lightgrey;
+	height: 200px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0);
+	transition: box-shadow 0.2s ease-out;
 }
 
 .card-heading{
@@ -37,7 +77,20 @@
 	font-weight: 700;
 	font-size: 1.8vw;
 	color: #173143;
+	transition: box-shadow 0.2s ease-out;
 }
+
+.card:hover .card-image{
+	box-shadow: 0px 0px 15px 0px rgba(2,2,20, 0.2);
+}
+
+.card:hover .card-heading{
+	color:#6763FF;
+}
+
+
+
+
 
 .card-body{
 	font-family: 'Roboto Mono';
@@ -48,22 +101,16 @@
 	margin-bottom: 5px;
 }
 
-.about-body{
-	font-family:  'Montserrat', sans-serif;
-	font-size: 1.5vw;
-	font-weight: 500;
-	color: #173143;
-	margin-bottom: 4vh;
+.work-space {
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
-.about-body-stalk{
-	font-family: 'Roboto Mono';
-	color: #9d9d9d;
-	font-size: 1.3vw;
-	font-weight: 700;
-	margin-bottom: 30px;
-	line-height: 6vw;
-}
+
+
+
+
+
 
 
 
@@ -86,7 +133,6 @@
 	}
 
 	.about-body{
-
 		font-size: 4.5vw;
 		
 	}
@@ -98,29 +144,40 @@
 } 
 
 
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*ABOUT SECTION STARTS*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
 
-.intro-para{
-	font-family: 'Roboto Mono';
-	color: white;
-	font-size: 1.5em;
-	font-weight: 300;
-	line-height: 1.5em;
-	margin-top: 8px;
+.about-body{
+	font-family:  'Montserrat', sans-serif;
+	font-size: 1.5vw;
+	font-weight: 500;
+	color: #929292;
+	margin-bottom: 4vh;
 }
+
+.about-body-stalk{
+	font-family: 'Roboto Mono';
+	color: #9d9d9d;
+	font-size: 1.3vw;
+	font-weight: 700;
+	margin-bottom: 30px;
+	line-height: 6vw;
+}
+
 
 .banner-link{
 	color: #6763FF;
 	text-decoration: underline;
+	transition: color 0.2s ease-out;
 }
 
-.banner-para{
-	font-family: 'Roboto Mono';
-	color: #173143;
-	font-size: 16px;
-	font-weight: 700;
-	margin-top: 30px;
-	margin-bottom: 20px;
+.banner-link:hover {
+	color: #4340AC;
 }
+
 
 
 .first{
@@ -130,10 +187,8 @@
 
 
 
-.work-space {
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
+
+
 
 a:link{
 	text-decoration: none;
@@ -142,28 +197,7 @@ a:link{
 }
 
 
-.card{
-	margin-bottom: 50px;
 
-}
-
-.card-image{
-	width: 100%;
-	background-color: lightgrey;
-	height: 200px;
-	margin-bottom: 10px;
-	border-radius: 4px;
-}
-
-.card-image: hover{
-	width: 110%;
-	height: 210px;
-	-moz-box-shadow: 1px 1px 5px #999;
-	-webkit-box-shadow: 1px 1px 5px #999;
-	box-shadow: 1px 1px 5px #999;
-	-webkit-transition: all .2s ease;
-	transition: all .2s ease;
-}
 
 
 
