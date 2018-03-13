@@ -11,17 +11,36 @@
 
 .bg-container{
 	background-color: #6763FF;
-	padding-top: 150px;
-	padding-bottom: 180px;
+	padding-top: 14vh;
+	padding-bottom: 16vh;
 }
 
 .heading-1{
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	font-weight: 700;
-	font-size: 50px;
-	line-height: 70px;
+	font-size: 3.5vw;
+	line-height: 4.5vw;
 }
+
+
+/*/////////////////////////*/
+  /*css for small devices*/
+/*//////////////////////////*/
+@media only screen and (max-width: 600px) {
+	
+	.heading-1{
+		font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 7vw;
+	line-height: 9.5vw;
+	}
+
+
+} 
+
+
 
 .intro-para{
 	font-family: 'Roboto Mono';
