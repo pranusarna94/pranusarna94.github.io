@@ -114,15 +114,64 @@
 	margin-bottom: 4vh;
 }
 
-.about-body-stalk{
-	font-family: 'Roboto Mono';
-	color: #9d9d9d;
-	font-size: 1vw;
-	font-weight: 700;
-	line-height: 6vw;
-	
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*ABOUT SECTION STARTS*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+
+
+.banner-link{
+	color:white;
+	font-weight: 500;
+	text-decoration: underline;
+	transition: opacity 0.2s ease-out;
+	/*opacity: 0.5;*/
 }
 
+.banner-link:hover {
+	opacity: 1
+}
+
+
+
+.first{
+	margin-bottom: 20px
+}
+
+
+
+.card:link{
+	text-decoration: none;
+	margin: 0px
+	padding: 0px;
+}
+
+.footer{
+	position: absolute;
+	right: 0;
+	left: 0;
+	background-color: #6763FF;
+	padding: 15px;
+}
+
+.about-body-stalk{
+	font-family: 'Roboto Mono';
+	color: white;
+	font-size: 1vw;
+	font-weight: 300;
+	line-height: 6vw;
+	/*opacity: 0.5*/
+	
+}
 
 
 /*/////////////////////////*/
@@ -150,53 +199,12 @@
 	}
 
 	.about-body-stalk{
-		font-size: 3.5vw;
+		font-size: 3.2vw;
 	}
 
 	
 
 } 
-
-
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-/*ABOUT SECTION STARTS*/
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-
-
-
-.banner-link{
-	color:#173143;
-	font-weight: 500;
-	text-decoration: underline;
-	transition: color 0.2s ease-out;
-}
-
-.banner-link:hover {
-	color: #6763FF;
-}
-
-
-
-.first{
-	margin-bottom: 20px
-}
-
-
-
-.card:link{
-	text-decoration: none;
-	margin: 0px
-	padding: 0px;
-}
-
-.footer{
-	position: absolute;
-	right: 0;
-	left: 0;
-	background-color: #efefef;
-}
 
 
 
