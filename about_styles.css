@@ -1,6 +1,12 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+
 header{
-	position: absolute;
-	right: 0;
+/*	position: absolute;
+*/	right: 0;
 	left: 0;
 	border-bottom: 1px solid #F6F6F6;
 	padding: 20px;
@@ -21,7 +27,6 @@ header{
 }
 
 .header-title-about{
-	
 
 	padding-right: 30px;
 	color: #173143;
@@ -32,4 +37,15 @@ header{
 	color: #6763FF;
 	opacity: 1;
 
+}
+
+.card-image{
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+	background-color: #fafafa;
+}
+
+.card{
+	background-color: blue;
 }
