@@ -2,12 +2,73 @@
 /*yellow color: FEC739*/
 /*dark grey/*: 173143 */
 
+@font-face{
+	font-family: bonkers;
+	src: url('Bonkers.otf');
+}
 
 *{
 	padding: 0;
 	margin: 0;
 
 }
+
+/*.tester{
+	background-color: red;
+}*/
+
+
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*HEADER STARTS*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+header{
+	position: absolute;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid #F6F6F6;
+	padding: 20px;
+	font-family: 'Roboto Mono';
+	font-weight: 700;
+	font-size: 2.2vh;
+	text-align: left;
+}
+
+.header-title{
+	padding-right: 30px;
+}
+
+.header-title-work{
+	padding-right: 30px;
+	color: #173143;
+	text-decoration: none;
+}
+
+.header-title-about{
+	padding-right: 30px;
+	color:#9d9d9d;
+	text-decoration: none;
+	opacity: 0.5;
+	transition: color 0.2s
+}
+
+.header-title-about:hover {
+	color: #6763FF;
+	opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*//////////////////////////////////////////////*/
@@ -23,11 +84,11 @@
 }
 
 .heading-1{
-	font-family: 'Montserrat', sans-serif;
-	color: #6763FF;
+	font-family: 'Montserrat';
 	font-weight: 700;
+	color: #6763FF;
 	font-size: 3.8vw;
-	line-height: 5vw;
+	line-height: 5.5vw;
 }
 
 .banner-para{
@@ -200,6 +261,10 @@
 
 	.about-body-stalk{
 		font-size: 3.2vw;
+	}
+
+	.header-title{
+		padding-right: 0px;
 	}
 
 	
