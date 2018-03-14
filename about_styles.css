@@ -1,0 +1,35 @@
+header{
+	position: absolute;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid #F6F6F6;
+	padding: 20px;
+	font-family: 'Roboto Mono';
+	font-weight: 700;
+	font-size: 2.2vh;
+	text-align: left;
+}
+
+
+
+.header-title-work{
+	padding-right: 30px;
+	color:#9d9d9d;
+	text-decoration: none;
+	opacity: 0.5;
+	transition: color 0.2s
+}
+
+.header-title-about{
+	
+
+	padding-right: 30px;
+	color: #173143;
+	text-decoration: none;
+}
+
+.header-title-work:hover {
+	color: #6763FF;
+	opacity: 1;
+
+}
