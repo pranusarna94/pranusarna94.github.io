@@ -1,3 +1,9 @@
+/*blue color: 6763FF*/
+/*yellow color: FEC739*/
+/*dark grey/*: 173143 */
+
+
+
 *{
 	padding: 0px;
 	margin:0px;
@@ -54,4 +60,20 @@ header{
 .about-body{
 	font-family: 'Roboto Mono';
 	font-size: 1.3vw;
+	line-height: 2vw;
+}
+
+
+.text-area{
+	margin-top: 35px;
+}
+
+p{
+	margin-bottom: 20px;
+
+}
+
+.banner-link{
+	color: #6763FF;
+	text-decoration: none;
 }
