@@ -49,3 +49,9 @@ header{
 .card{
 	background-color: blue;
 }
+
+
+.about-body{
+	font-family: 'Roboto Mono';
+	font-size: 1.3vw;
+}
