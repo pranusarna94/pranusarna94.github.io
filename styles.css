@@ -15,274 +15,271 @@
 
 /*.tester{
 	background-color: red;
-}*/
-
-
-
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-/*HEADER STARTS*/
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-header{
-	/*position: absolute;*/
-	right: 0;
-	left: 0;
-	border-bottom: 1px solid #F6F6F6;
-	padding: 20px;
-	font-family: 'Roboto Mono';
-	font-weight: 700;
-	font-size: 2.2vh;
-	text-align: left;
-}
-
-.header-title{
-	padding-right: 30px;
-}
-
-.header-title-work{
-	padding-right: 30px;
-	color: #173143;
-	text-decoration: none;
-}
-
-.header-title-about{
-	padding-right: 30px;
-	color:#9d9d9d;
-	text-decoration: none;
-	opacity: 0.5;
-	transition: color 0.2s
-}
-
-.header-title-about:hover {
-	color: #6763FF;
-	opacity: 1;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-/*TOP BANNER AREA STARTS*/
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-
-.bg-container{
-	/*background-color: #6763FF;*/
-	padding-top: 14vh;
-	padding-bottom: 14vh;
-}
-
-.heading-1{
-	font-family: 'Montserrat';
-	font-weight: 700;
-	color: #6763FF;
-	font-size: 3.8vw;
-	line-height: 5.5vw;
-}
-
-.banner-para{
-	font-family: 'Roboto Mono', serif;
-	color: #173143;
-	font-size: 16px;
-	font-weight: 700;
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-/*CARD STYLING STARTS*/
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-
-
-.card{
-	margin-bottom: 50px;
-}
-
-
-
-.card-image{
-	width: 100%;
-	background-color: lightgrey;
-	height: 200px;
-	margin-bottom: 10px;
-	border-radius: 4px;
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0);
-	transition: box-shadow 0.2s ease-out;
-}
-
-.card-heading{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 1.8vw;
-	color: #333333;
-	opacity: 0.8;
-	transition: box-shadow 0.2s ease-out;
-	margin-bottom: 10px;
-	margin-top: 15px;
-}
-
-.card:hover .card-image{
-	box-shadow: 0px 0px 15px 0px rgba(2,2,20, 0.2);
-}
-
-.card:hover .card-heading{
-	color:#6763FF;
-}
-
-
-
-
-
-.card-body{
-	font-family: 'Cardo' serif;
-	font-size: 1.5vw;
-	line-height: 2vw;
-	font-weight: 500;
-	color: #333333;
-	opacity: 0.6;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.work-space {
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-
-.about-body{
-	font-family:  'Montserrat', sans-serif;
-	font-size: 1.5vw;
-	font-weight: 500;
-	color: #929292;
-	margin-bottom: 4vh;
-}
-
-
-
-
-
-
-
-
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-/*ABOUT SECTION STARTS*/
-/*//////////////////////////////////////////////*/
-/*//////////////////////////////////////////////*/
-
-
-
-.banner-link{
-	color:white;
-	font-weight: 500;
-	text-decoration: underline;
-	transition: opacity 0.2s ease-out;
-	/*opacity: 0.5;*/
-}
-
-.banner-link:hover {
-	opacity: 1
-}
-
-
-
-.first{
-	margin-bottom: 20px
-}
-
-
-
-.card:link{
-	text-decoration: none;
-	margin: 0px
-	padding: 0px;
-}
-
-.footer{
-	position: absolute;
-	right: 0;
-	left: 0;
-	background-color: #6763FF;
-	padding: 15px;
-}
-
-.about-body-stalk{
-	font-family: 'Roboto Mono';
-	color: white;
-	font-size: 1vw;
-	font-weight: 300;
-	line-height: 6vw;
-	/*opacity: 0.5*/
-	
-}
-
-
-/*/////////////////////////*/
-/*css for small devices < 600px*/
-/*//////////////////////////*/
-@media only screen and (max-width: 600px) {
-	
-	.heading-1{
-		font-size: 8.5vw;
-		line-height: 11vw;
-	}
-
-	.heading-2{
-		font-size: 7vw;
-	}
-
-	.card-heading{
-		font-size: 5.5vw;
-
-	}
-
-	.card-body{
-		font-size: 4.5vw;
-		line-height: 6.5vw;
-	}
-
-	.about-body{
-		font-size: 4.5vw;
-		line-height: 6.5vw;
-		
-	}
-
-	.about-body-stalk{
-		font-size: 3.2vw;
+	}*/
+
+
+
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+	/*HEADER STARTS*/
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+	header{
+		/*position: absolute;*/
+		right: 0;
+		left: 0;
+		border-bottom: 1px solid #F6F6F6;
+		padding: 20px;
+		font-family: 'Roboto Mono';
+		font-weight: 700;
+		font-size: 2.2vh;
+		text-align: left;
 	}
 
 	.header-title{
-		padding-right: 0px;
+		padding-right: 30px;
+	}
+
+	.header-title-work{
+		padding-right: 30px;
+		color: #173143;
+		text-decoration: none;
+	}
+
+	.header-title-about{
+		padding-right: 30px;
+		color:#9d9d9d;
+		text-decoration: none;
+		opacity: 0.5;
+		transition: color 0.2s
+	}
+
+	.header-title-about:hover {
+		color: #6763FF;
+		opacity: 1;
+
 	}
 
 
 
-	
 
-} 
+
+
+
+
+
+
+
+
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+	/*TOP BANNER AREA STARTS*/
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+
+	.bg-container{
+		/*background-color: #6763FF;*/
+		padding-top: 14vh;
+		padding-bottom: 14vh;
+	}
+
+	.heading-1{
+		font-family: 'Montserrat';
+		font-weight: 700;
+		color: #6763FF;
+		font-size: 3.8vw;
+		line-height: 5.5vw;
+	}
+
+	.banner-para{
+		font-family: 'Roboto Mono', serif;
+		color: #173143;
+		font-size: 16px;
+		font-weight: 700;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+	/*CARD STYLING STARTS*/
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+
+
+	.card{
+		margin-bottom: 50px;
+	}
+
+
+
+	.card-image{
+		width: 100%;
+		background-color: lightgrey;
+		height: 200px;
+		margin-bottom: 10px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0);
+		transition: box-shadow 0.2s ease-out;
+	}
+
+	.card-heading{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 1.8vw;
+		color: #666;
+		transition: box-shadow 0.2s ease-out;
+		margin-bottom: 10px;
+		margin-top: 15px;
+	}
+
+	.card:hover .card-image{
+		box-shadow: 0px 0px 15px 0px rgba(2,2,20, 0.2);
+	}
+
+	.card:hover .card-heading{
+		color:#6763FF;
+	}
+
+
+
+
+
+	.card-body{
+		font-family: 'Cardo', serif;
+		font-size: 1.4vw;
+		line-height: 2vw;
+		font-weight: 500;
+		color: #777;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.work-space {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.about-body{
+		font-family:  'Montserrat', sans-serif;
+		font-size: 1.5vw;
+		font-weight: 500;
+		color: #929292;
+		margin-bottom: 4vh;
+	}
+
+
+
+
+
+
+
+
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+	/*ABOUT SECTION STARTS*/
+	/*//////////////////////////////////////////////*/
+	/*//////////////////////////////////////////////*/
+
+
+
+	.banner-link{
+		color:white;
+		font-weight: 500;
+		text-decoration: none;
+		transition: text-decoration 0.2s ease-out;
+		/*opacity: 0.5;*/
+	}
+
+	.banner-link:hover {
+		text-decoration: underline;
+	}
+
+
+
+	.first{
+		margin-bottom: 20px
+	}
+
+
+
+	.card:link{
+		text-decoration: none;
+		margin: 0px
+		padding: 0px;
+	}
+
+	.footer{
+		position: absolute;
+		right: 0;
+		left: 0;
+		background-color: #6763FF;
+	}
+
+	.about-body-stalk{
+		font-family: 'Roboto Mono';
+		color: white;
+		font-size: 1vw;
+		font-weight: 300;
+		line-height: 6vw;
+		/*opacity: 0.5*/
+		
+	}
+
+
+	/*/////////////////////////*/
+	/*css for small devices < 600px*/
+	/*//////////////////////////*/
+	@media only screen and (max-width: 600px) {
+		
+		.heading-1{
+			font-size: 8.5vw;
+			line-height: 11vw;
+		}
+
+		.heading-2{
+			font-size: 7vw;
+		}
+
+		.card-heading{
+			font-size: 5.5vw;
+
+		}
+
+		.card-body{
+			font-size: 4.5vw;
+			line-height: 6.5vw;
+		}
+
+		.about-body{
+			font-size: 4.5vw;
+			line-height: 6.5vw;
+			
+		}
+
+		.about-body-stalk{
+			font-size: 3.2vw;
+		}
+
+		.header-title{
+			padding-right: 0px;
+		}
+
+		.footer{
+			padding: 15px;
+		}
+
+	} 
 
 
 

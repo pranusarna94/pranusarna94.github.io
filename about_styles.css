@@ -11,8 +11,7 @@
 
 
 header{
-/*	position: absolute;
-*/	right: 0;
+	right: 0;
 	left: 0;
 	border-bottom: 1px solid #F6F6F6;
 	padding: 20px;
@@ -22,6 +21,15 @@ header{
 	text-align: left;
 }
 
+.banner-link{
+	color: #6763FF;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.banner-link:hover{
+	text-decoration: underline;
+}
 
 
 .header-title-work{
@@ -58,11 +66,12 @@ header{
 
 
 .about-body{
-	font-family: 'Cardo';
-	font-size: 1.3vw;
-	line-height: 3vw;
 	margin-bottom: 30px;
-	font-weight: 500;
+	font-family: 'Cardo',serif;
+	font-size: 1.5vw;
+	line-height: 2.5vw;
+	color: #666;
+	margin-top: 5px;
 }
 
 
@@ -70,12 +79,30 @@ header{
 	margin-top: 35px;
 }
 
-p{
-	
+.footer{
+	position: absolute;
+	right: 0;
+	left: 0;
+	background-color: #6763FF;
+}
+
+.about-body-stalk{
+	font-family: 'Roboto Mono';
+	color: white;
+	font-size: 1vw;
+	font-weight: 300;
+	line-height: 6vw;
+	/*opacity: 0.5*/
 
 }
 
-.banner-link{
-	color: #6763FF;
+.banner-link-footer{
+	color: white;
 	text-decoration: none;
+	font-weight: 500;
 }
+
+.banner-link-footer:hover{
+	text-decoration: underline;
+}
+
