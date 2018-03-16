@@ -92,7 +92,7 @@ header{
 }
 
 .banner-para{
-	font-family: 'Roboto Mono';
+	font-family: 'Roboto Mono', serif;
 	color: #173143;
 	font-size: 16px;
 	font-weight: 700;
@@ -137,8 +137,11 @@ header{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 1.8vw;
-	color: #173143;
+	color: #333333;
+	opacity: 0.8;
 	transition: box-shadow 0.2s ease-out;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
 .card:hover .card-image{
@@ -154,10 +157,12 @@ header{
 
 
 .card-body{
-	font-family: 'Roboto Mono';
-	font-size: 1.2vw;
+	font-family: 'Cardo' serif;
+	font-size: 1.5vw;
+	line-height: 2vw;
 	font-weight: 500;
-	color: #9D9D9D;
+	color: #333333;
+	opacity: 0.6;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }

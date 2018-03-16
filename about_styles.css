@@ -58,9 +58,11 @@ header{
 
 
 .about-body{
-	font-family: 'Roboto Mono';
+	font-family: 'Cardo';
 	font-size: 1.3vw;
-	line-height: 2vw;
+	line-height: 3vw;
+	margin-bottom: 30px;
+	font-weight: 500;
 }
 
 
@@ -69,7 +71,7 @@ header{
 }
 
 p{
-	margin-bottom: 20px;
+	
 
 }
 
