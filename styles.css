@@ -256,6 +256,12 @@ header{
 
 	.card-heading{
 		font-size: 5.5vw;
+
+	}
+
+	.card-body{
+		font-size: 4.5vw;
+		line-height: 6.5vw;
 	}
 
 	.about-body{
@@ -271,6 +277,8 @@ header{
 	.header-title{
 		padding-right: 0px;
 	}
+
+
 
 	
 
