@@ -9,28 +9,31 @@
 
 header{
 	/*position: absolute;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
 	right: 0;
 	left: 0;
 	border-bottom: 1px solid #F6F6F6;
-	padding: 20px;
 	font-family: 'Roboto Mono';
 	font-weight: 700;
 	font-size: 2.2vh;
 	text-align: left;
 }
 
-.header-title{
-	padding-right: 30px;
+img{
+	width:100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
+
+
 .header-title-work{
-	padding-right: 30px;
 	color: #173143;
 	text-decoration: none;
 }
 
 .header-title-about{
-	padding-right: 30px;
 	color:#9d9d9d;
 	text-decoration: none;
 	opacity: 0.5;
@@ -51,6 +54,7 @@ header{
 	font-size: 3.5vw;
 	line-height: 5.5vw;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .heading-2{
@@ -144,6 +148,7 @@ header{
 	right: 0;
 	left: 0;
 	background-color: #6763FF;
+	margin-top: 50px;
 }
 
 .about-body-stalk{
