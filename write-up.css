@@ -124,13 +124,13 @@ header{
 @media only screen and (max-width: 600px) {
 	.body-text{
 		font-size: 4.5vw;
-		line-height: 6.5vw;
+		line-height: 6.8vw;
 	}
 
 
 	.body-text-bold{
 		font-size: 4.5vw;
-		line-height: 6.5vw;
+		line-height: 6.8vw;
 	}
 }
 
