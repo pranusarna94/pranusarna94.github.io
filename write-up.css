@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}	
+
+
+
+
+
+header{
+	/*position: absolute;*/
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid #F6F6F6;
+	padding: 20px;
+	font-family: 'Roboto Mono';
+	font-weight: 700;
+	font-size: 2.2vh;
+	text-align: left;
+}
+
+.header-title{
+	padding-right: 30px;
+}
+
+.header-title-work{
+	padding-right: 30px;
+	color: #173143;
+	text-decoration: none;
+}
+
+.header-title-about{
+	padding-right: 30px;
+	color:#9d9d9d;
+	text-decoration: none;
+	opacity: 0.5;
+	transition: color 0.2s
+}
+
+.header-title-about:hover {
+	color: #6763FF;
+	opacity: 1;
+
+}
+
+
+.heading-1{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #6763FF;
+	font-size: 3.5vw;
+	line-height: 5.5vw;
+	margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.heading-1{
+		font-size: 8.5vw;
+		line-height: 11vw;
+	}
+}
+
+
+.bg-container{
+	/*background-color: #6763FF;*/
+	padding-top: 14vh;
+	padding-bottom: 14vh;
+}
+
+
+.banner-image{
+	width: 100%;
+	background-color: #fafafa;
+	height: 450px;
+	padding: 0px;
+	margin-bottom: 40px;
+
+}
+
+
+.banner-image-child{
+	width: 100%;
+}
+
+.body-text{
+	font-family: 'Cardo', serif;
+	font-size: 1.6vw;
+	line-height: 2.8vw;
+	font-weight: 500;
+	color: #777;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.body-text-bold{
+	font-family: 'Cardo', serif;
+	font-size: 1.6vw;
+	line-height: 2.6vw;
+	font-weight: 700;
+	color: #777;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.body-text{
+		font-size: 4.5vw;
+		line-height: 6.5vw;
+	}
+
+
+	.body-tex-bold{
+		font-size: 4.5vw;
+		line-height: 6.5vw;
+	}
+}
+
