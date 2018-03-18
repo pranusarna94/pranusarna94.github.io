@@ -53,11 +53,27 @@ header{
 	margin-bottom: 30px;
 }
 
+.heading-2{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #444;
+	font-size: 2.4vw;
+	line-height: 5.5vw;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+
 
 @media only screen and (max-width: 600px) {
 	.heading-1{
 		font-size: 8.5vw;
 		line-height: 11vw;
+	}
+
+	.heading-2{
+		font-size: 6.5vw;
+		line-height: 8vw;
+		margin-bottom: 20px;
 	}
 }
 
@@ -88,7 +104,7 @@ header{
 	font-size: 1.6vw;
 	line-height: 2.8vw;
 	font-weight: 500;
-	color: #777;
+	color: #555;
 	margin-top: 5px;
 	margin-bottom: 25px;
 }
@@ -98,7 +114,7 @@ header{
 	font-size: 1.6vw;
 	line-height: 2.6vw;
 	font-weight: 700;
-	color: #777;
+	color: #555;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -112,9 +128,53 @@ header{
 	}
 
 
-	.body-tex-bold{
+	.body-text-bold{
 		font-size: 4.5vw;
 		line-height: 6.5vw;
 	}
 }
 
+.body-text-list{
+	margin-right: 20px;
+}
+
+
+.footer{
+	position: absolute;
+	right: 0;
+	left: 0;
+	background-color: #6763FF;
+}
+
+.about-body-stalk{
+	font-family: 'Roboto Mono';
+	color: white;
+	font-size: 1vw;
+	font-weight: 300;
+	line-height: 6vw;
+	/*opacity: 0.5*/
+
+}
+
+.banner-link{
+	color:white;
+	font-weight: 500;
+	text-decoration: none;
+	transition: text-decoration 0.2s ease-out;
+	/*opacity: 0.5;*/
+}
+
+.banner-link:hover {
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.footer{
+		padding: 15px;
+	}
+
+	.about-body-stalk{
+		font-size: 3.2vw;
+	}
+}
