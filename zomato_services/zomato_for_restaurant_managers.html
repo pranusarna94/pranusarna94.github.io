@@ -93,7 +93,7 @@
 		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Defining the problem(s)</p>
 		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">On understanding the managers and the circumstances they operate in, we were in a better position to define the goals of the app redesign. Here they go:</p>
 
-		<ol>
+		<ol class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
 			<li class="body-text-bold col-lg-10 offset-1">We wanted to overhaul the overall user experience such that it would be more favourable to their entry level devices and overcome their highly distracted conditions.</li>
 
 			<li class="body-text-bold col-lg-10 offset-1">Managers operated in a time-crunch and every second was valuable. We wanted to ensure that the major task of searching and identifying an order on the app was easy and quick.</li>
@@ -103,40 +103,309 @@
 
 			<li class="body-text-bold col-lg-10 offset-1 col-sm-10 col-xs-3 offset-xs-1">Order rejection by the restaurants was a very poor experience for all three parties. The already hungry customer not only lost on the food, but also on time. They were then hungry AND frustrated. The restaurant and Zomato lost not only the business but also the trust of the customer. We wanted to design a solution which would minimise order rejections and reduce its negative effects.
 			</li>
-
-
 		</ol>
 
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12 ">It's problem solvin' time!</p>
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Solving for lower end devices and highly distracted conditions</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">A user interface with higher contrast:</span> Lower costing phones generally tend to be lower on screen density and brightness. Since the managers were monitoring multiple systems at once, a lot of information consumption on the app would happen from a distance. High contrasting colours and typography made up for the low density and brightness of the lower costing devices as well as for distant viewing. This is how the app looks on a Lenovo 1000 device:
+			</li>
+		</ul>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="lenovo.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Regular and Medium weighted typography would render unreadable on low-end devices</p>
 	</div>
 
 
 
 
 	<div class="container">
-		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Files above the size of 100 mb are common in design but not so much in code. As we kept on progressing, the sketch files grew and so did the time to push the changes and this slowed us down as a team.</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">To make sure the app performs well on these devices we reduced heavy graphical processing tasks such as animations, transitions and shadows. These design decisions contributed to make the app lot more snappier with the response time of each tap reduced to 170 ms on a phone where the average response time to a tap is about 280ms.</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">Talking to them in their language:</span> All the managers were proficient in Hindi (their native language) and understood only basic english. We thought of localising the app to the languages of different cities, but due to time constraint had to push the idea to a later release. Going forward with english, we decided to simplify the communication. Hence, replacing words like <b>“Dispatch”</b> with <b>“Send Order”</b>, <b>“Dispute”</b> with <b>“Problem with order?”</b>.
+			</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="easy_english.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Keeping it simple</p>
+	</div>
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Solving for quick search and identification of orders
+		</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">The order card:</span> A noteworthy insight from our visits to the restaurant was how the restaurant managers communicate about the order to the different stakeholders. For e.g. — A manager when asking the status of an order from the kitchen would use the order items and the address of the customer to identify the order. When the customer would call inquiring about the status of their order, the restaurant manager would ask for their name or their phone number (in case of a generic name) to search for the order through their list.
+			</li>
+		</ul>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> All of this information was critical for the restaurant manager. Bringing this information together in a way which made the card feel like a cohesive unit and also allowed for easy consumption of the information was a challenging problem. We iterated several times to get the information hierarchy and density right.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="order_card.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">The order card helps in quick search and identification of orders</p>
+	</div>
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Solving for quick search and identification of orders
+		</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">A clear navigation coupled with categorisation of orders:</span> The bifurcation of orders to “Preparing” and “Dispatched” was made in to order to match the physical reality of the restaurant. At any given time an active order can either be in the kitchen being prepared or out for delivery. This would help the restaurant manager in getting a birds-eye view of the current state of the restaurant and would further aid in quickly searching for an order.
+			</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="categorising_orders.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">The order card helps in quick search and identification of orders</p>
+	</div>
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Shaping manager behaviour which promoted urgency to deliver orders
+		</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">Acceptance screen:</span> In the previous version of the app, when the manager accepted a new order they would be presented with a time selector where they could increase or decrease the delivery time, depending on how busy the restaurant was. To discourage the managers from mindlessly increasing the delivery time without realising its consequences, we decided to surface its impact when the time would be increased by 10 minutes.
+			</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="acceptance_screen_main.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">The disclaimer would make the managers more aware about the negative effects of delaying orders
+		</p>
+	</div>
+
+	<div class="container">
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">Better ordering of the cards:</span> The orders in the previous app would be sorted on the basis of recency (newest order first). This meant that the old orders which needed more immediate actioning would be pushed down the list and have less visibility. This further led to the managers forgetting to mark the orders as dispatched. Classic case of “out of sight, out of mind”. We decided to reverse the ordering of the list to show the orders close to being dispatched on top of the list.
+			</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class="img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="ordering_cards.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">The new order sorting gave more visibility to orders which needed to dispatched sooner
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> To make sure that this ordering does not make the managers forget about adding new orders (being appended to the bottom of the list) to their POS, we designed a button which would scroll to the newest order.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="new_order.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">floating button to make sure that new orders aren't forgotten
+		</p>
+	</div>
+
+	<div class="container">
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">Dispatch ticker on the order card:</span> We decided to add a ticker to orders with dispatch time less than five minutes. This would ensure them to be even more mindful about the orders which needed to be sent out immediately.
+			</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="dispatch_ticker.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">dispatch ticker on the order card
+		</p>
+	</div>
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Solving for minimising rejections
+
+		</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">The new rejection flow:</span> On visiting the restaurants we asked the managers what were the main reasons they would reject an order. To decrease the negative effects of a rejection and accommodate more transparency in the system we re-worked the rejection flow. Now, on rejecting an order the manager would be asked the reason for rejection and depending on the reason chosen, specific actions would be taken which in turn aid the restaurant operations.ne
+			</li>
+		</ul>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="new_rejection_flow.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Rejecting an order — asking for reasons for the rejection
+
+		</p>
+	</div>
+
+
+	<div class="container">
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">Selecting kitchen full & No delivery person:</span> Selecting one of these reasons tells us that the restaurant is finding it difficult to deliver the already pending orders and definetely does not require new ones for the time being. At first, we thought of taking the restaurant offline for a certain time, so that they get no new orders. But this soon started to feel like we were taking valuable business away from the restaurants and also not letting the customers order from their favourite restaurants. After much deliberation, we decided to set the right expectations for the customer on the behalf of the restaurant. Once the manager selects any of these two reasons we start to show a disclaimer over on the customer app.
+			</li>
+		</ul>
 	</div>
 
 
 
 	<div class="container-fluid no-padding">
-
-		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="git_slow.gif">
-		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Git forcing us to sleep on the job</p>
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="kitchen_full.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Selecting Kitchen Full/No Delivery Person</p>
 	</div>
 
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-4 offset-lg-4 col-sm-12 col-xs-12" src="consumer_app.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Increased delivery time disclaimer on customer app</p>
+	</div>
 
 
 	<div class="container">
-		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Final verdict
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The customers, if they want can still order from the restaurant but are already aware of the more than usual delivery time.
+		</div>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				<span class="body-text-bold">Item out of stock:</span>  When the manager selects this as the reason to reject an order, it was almost obvious to ask them the item which was out of stock and then take it off from the restaurant menu over on the customer side. There would be no new orders with this particular item and would help in minimising rejections.
+			</li>
+		</ul>
+
+	</div>
+
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="marked_out_of_stock.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Rejection flow for when items marked out of stock
+		</p>
+	</div>
+
+
+	<div class="container">
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">However, to make sure that the managers don’t forget to bring an item back in the menu when it is back in stock we designed a prompt on the app which would show up at the start of the next business day.
+		</div>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="in_stock.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Prompt to ask which items are back in stock
+		</p>
+	</div>
+
+
+	<div class="container">
+		<div class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Testing the prototype
+
+		</div>
+
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			We revisited the restaurants with this prototype to test out the above changes. This qualitative testing was done so that we could get merchant reactions and weed out the most obvious problems with the redesign which we might have missed.
+		</div>
+
+		<div class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Some scenarios in which we tested out the prototype:
+		</div>
+
+		<ol class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				Imagine it is a national holiday and you are getting more orders than you can manage. You already have 20 orders pending and a new order comes in on the Zomato app. What action do you take?
+			</li>
+
+			<li class="body-text col-lg-10 offset-1">
+				You run out of one of you best selling items, and the very next moment you receive an order for exactly that item, what do you do?
+			</li>
+
+			<li class="body-text col-lg-10 offset-1">
+				To test out quick search and identification of orders: A customer calls in asking for the status of their order. The order was dispatched 5 minutes ago. What actions do you perform next?
+			</li>
+		</ol>
+		
+
+		<div class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Manager reactions (translated from Hindi):</div>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<b><i>“Yeah, 20 minutes is good enough for us to complete the pending orders so that we can take new orders.”</i></b>
 		</p>
 
-		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">By trying out Git for design collaboration we understood its shortcomings and how it was not well suited for designers.</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<b><i>“Woah! who are you to decide to increase our delivery time, 20 minutes is too long a time and we will lose on our orders!”</i></b>
+		</p>
 
-		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Tools like Abstract and Plant are specifically built as design version control systems. Both tools solve this problem in their own way and have their pros and cons. Plant has a snappy sketch plugin and web app and is more suited for beginners while Abstract felt like an app created for people who are already used to Git and its concepts.</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<b><i>“This option to mark items out of stock is really helpful. Otherwise, I have to do it manually and most of the time I forget to do it”</i></b>
+		</p>
 
-		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">If you guys used Git for design or any of these tools, do share your experience!</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Manager reaction to the new rejection flow was mostly positive especially the flow for when some items were out of stock. Managers were divided about increasing their delivery time for 20 minutes and thought this might not be helpful all the time. Nevertheless, we decided to go forward with it and find a better answer after receiving feedback from a bigger merchant base.
+		</p>
 
-		<p class="body-text-bold col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Cheers!</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			We were excited to find out that all the managers adapted well to the two tabs design. They were able to switch between them effortlessly. Such high level of comfort with the tabs could be attributed to WhatsApp on android, an app which they used regularly.
+		</p>
+
+	</div>
+
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="whatsapp.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Managers are well versed with the tabs UI
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">However, the ticker on top of the order card seemed to be generating anxiety rather than creating a sense of urgency. Two of the five merchants were completely bewildered as soon as they saw the ticker...</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<b><i>“Oh! did i do something wrong?"</i></b>
+		</p>
+
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<b><i>“Everything seems so complicated suddenly, what did i do?!”</i></b>
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			This made us rework the ticker to something which was not so visually appalling.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="new_ticker.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">User testing helped us in improving the dispatch timer
+
+		</p>
+	</div>
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Closing in
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			One week after deploying the app at our partner restaurants in Delhi/NCR, the data suggested that we were able to bring rejections down by approximately one percent. Decrease in chatter on the customer support’s “Delayed Order” channel was attributed to increase in timely deliveries. Our first steps with the redesign were in the right direction.
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			My first experience designing an solution for businesses was fun and challenging. Shout out to Pradyot Ghate and Ashish Goel for their valuable inputs throughout our design process. I tried to cover the most integral parts of the redesign. To know more about it, hit me up on twitter.
+		</p>
+
+		<p class="body-text-bold col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Cheers!
+
+		</p>
 	</div>
 
 
@@ -146,19 +415,25 @@
 
 
 
-	<footer class="footer">
-		<div class="container">
-			<p class="about-body-stalk offset-lg-1">Stalk me on <a class="banner-link" href="">MEDIUM</a>, <a class="banner-link" href="">TWITTER</a>, <a class="banner-link" href="">LINKED-IN</a>  or <a class="banner-link" href="">GITHUB</a> </p>
-		</div>
-
-	</footer>
 
 
 
 
 
 
-</div>
+		<footer class="footer">
+			<div class="container">
+				<p class="about-body-stalk offset-lg-1">Stalk me on <a class="banner-link" href="">MEDIUM</a>, <a class="banner-link" href="">TWITTER</a>, <a class="banner-link" href="">LINKED-IN</a>  or <a class="banner-link" href="">GITHUB</a> </p>
+			</div>
+
+		</footer>
+
+
+
+
+
+
+	</div>
 
 </div>
 
