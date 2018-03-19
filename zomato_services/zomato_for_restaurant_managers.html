@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#6763FF" />
+
+	<title>
+		Pranu Sarna - Zomato Treats
+	</title>
+	<link rel="stylesheet" type="text/css" href="../write-up.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="/index.html" class="header-title-about  offset-lg-10 col-lg-1 col-xs-1">WORK</a>
+			<a href="/about.html" class="header-title-about col-lg-1 col-xs-1">ABOUT</a>
+		</div>
+	</header>
+
+
+	<div class="container-fluid no-padding">
+		<img class="banner-image img-responsive no-padding col-lg-12" src="banner_image.png">
+	</div>
+
+	<div class="container">
+
+
+		<p class="heading-1 col-lg-10 offset-lg-1 ">Zomato for restaurant managers</p>
+
+		
+
+
+
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Zomato enables over 200 thousand online orders to be placed in India every day. There are two sides to each of these orders, one is the customer facing interface which lets them get delicious food delivered right to their doorstep. The other is the restaurant facing interface through which they can receive orders made on Zomato. When an order arrives the restaurant manager can accept, reject or take other actions on the order. Zomato provides an order management interface for the restaurant in the form of an android app or a web dashboard.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The earlier version of the app and the web dashboard were released with the initial launch of the online ordering business in 2014. With the addition of new verticals, increase in our merchant base, higher adoption rate of the app and the subsequent integration of our delivery partner — Runnr, the app needed a redesign.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">I worked closely with Naveen Durga, who at the time was managing the app.
+
+		</p>
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Getting to know the users</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Before we jumped into the redesign, we tried to understand the problems restaurant managers faced with the then current version of the app and the circumstances in which they operated. We visited five restaurants in Delhi and Gurgaon around lunch time and were fortunate enough to see the restaurants operate at high order volume. The following is my artistic rendition to best describe the condition of the restaurant manager during this time
+		</p>
+
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-6 offset-lg-3" src="busy_managers.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Not all superheroes wear capes</p>
+	</div>
+
+
+	<div class="container">
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Here is what we observed. Constantly increasing new orders, customers calling to know the status of or to make changes to their orders, back and forth with the kitchen to pass the new orders or check up on the old ones, keeping a track of the delivery executives, managing inventory. Their job was chaotic and tough!</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Being a fly on the wall for these sessions taught us a pattern which the restaurants generally operate in:</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="flow_chart.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">A day in the life of a restaurant manager</p>
+	</div>	
+
+	<div class="container" >
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">To better empathise with the managers, apart from understanding the problems they faced at their job, and the ones that they faced with the current app (more on it later), we also talked to them about their personal lives.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Most of them were from surrounding towns and villages and had migrated to Gurgaon in search of livelihood, often leaving their families behind. All of them were unaware of the internet before buying their entry level android smartphones. They mostly used their phones to WhatsApp and watch videos. Based on these insights it soon became clear that we would be designing for the next billion with this project.</p>
+
+	</div>
+
+
+	<div class="container">
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Defining the problem(s)</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">On understanding the managers and the circumstances they operate in, we were in a better position to define the goals of the app redesign. Here they go:</p>
+
+		<ol>
+			<li class="body-text-bold col-lg-10 offset-1">We wanted to overhaul the overall user experience such that it would be more favourable to their entry level devices and overcome their highly distracted conditions.</li>
+
+			<li class="body-text-bold col-lg-10 offset-1">Managers operated in a time-crunch and every second was valuable. We wanted to ensure that the major task of searching and identifying an order on the app was easy and quick.</li>
+
+			<li class="body-text-bold col-lg-10 offset-1 col-sm-10 col-xs-3 offset-xs-1">On orders delayed for more than 15 minutes, the order rating would plummet. Clearly, delayed orders were a frustrating experience for the customer. We wanted to shape manager behaviour which promoted urgency for delivering orders and cut delays.
+			</li>
+
+			<li class="body-text-bold col-lg-10 offset-1 col-sm-10 col-xs-3 offset-xs-1">Order rejection by the restaurants was a very poor experience for all three parties. The already hungry customer not only lost on the food, but also on time. They were then hungry AND frustrated. The restaurant and Zomato lost not only the business but also the trust of the customer. We wanted to design a solution which would minimise order rejections and reduce its negative effects.
+			</li>
+
+
+		</ol>
+
+	</div>
+
+
+
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Files above the size of 100 mb are common in design but not so much in code. As we kept on progressing, the sketch files grew and so did the time to push the changes and this slowed us down as a team.</p>
+	</div>
+
+
+
+	<div class="container-fluid no-padding">
+
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="git_slow.gif">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Git forcing us to sleep on the job</p>
+	</div>
+
+
+
+	<div class="container">
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Final verdict
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">By trying out Git for design collaboration we understood its shortcomings and how it was not well suited for designers.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Tools like Abstract and Plant are specifically built as design version control systems. Both tools solve this problem in their own way and have their pros and cons. Plant has a snappy sketch plugin and web app and is more suited for beginners while Abstract felt like an app created for people who are already used to Git and its concepts.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">If you guys used Git for design or any of these tools, do share your experience!</p>
+
+		<p class="body-text-bold col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Cheers!</p>
+	</div>
+
+
+
+
+
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<p class="about-body-stalk offset-lg-1">Stalk me on <a class="banner-link" href="">MEDIUM</a>, <a class="banner-link" href="">TWITTER</a>, <a class="banner-link" href="">LINKED-IN</a>  or <a class="banner-link" href="">GITHUB</a> </p>
+		</div>
+
+	</footer>
+
+
+
+
+
+
+</div>
+
+</div>
+
+</body>
+</html>

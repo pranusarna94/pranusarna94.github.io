@@ -26,6 +26,10 @@ img{
 	margin-bottom: 10px;
 }
 
+/*.banner-image{
+	margin-top: 0px;
+}*/
+
 .image-caption {
 	font-family: 'Roboto Mono';
 	font-size: 13px;
@@ -108,16 +112,13 @@ img{
 .banner-image{
 	width: 100%;
 	background-color: #fafafa;
-	height: 450px;
+	margin-top: 0px;
 	padding: 0px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 
 }
 
 
-.banner-image-child{
-	width: 100%;
-}
 
 .body-text{
 	font-family: 'Cardo', serif;
@@ -136,7 +137,7 @@ img{
 	font-weight: 700;
 	color: #555;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 25px;
 }
 
 
