@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#6763FF" />
+
+	<title>
+		Pranu Sarna - Tyutor
+	</title>
+	<link rel="stylesheet" type="text/css" href="../write-up.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="../open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+
+</head>
+<body class="fade-in-class">
+	<header>
+		<div class="container">
+			<a href="/index.html" class="header-title-about  offset-lg-10 col-lg-1 col-xs-1">WORK</a>
+			<a href="/about.html" class="header-title-about col-lg-1 col-xs-1">ABOUT</a>
+		</div>
+	</header>
+
+
+	<div class="container-fluid no-padding">
+		<img class="banner-image img-responsive no-padding col-lg-12" src="tyutor-banner.png">
+	</div>
+
+	<div class="container">
+
+
+		<p class="heading-1 col-lg-10 offset-lg-1 ">Tyutor</p>
+		<p class="body-text col-lg-10 offset-lg-1 "><i>Building an organic network for private tutors, students and parents</i></p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Before we dive into the good stuff of how I designed Tyutor (that is what we are calling it for now), I’d like to give you some perspective on the current state of the Indian private tutor industry.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"><b>In India, one in every four students(including the ones enrolled in higher levels of education) take private tuitions, with the number being as high as three out four in some states.</b> These numbers are recorded by the National Sample Survey Office and you can read the detailed study here.</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-6 offset-lg-3" src="tyutor_stats.jpeg">
+
+		<p class="image-caption text-center col-lg-8 offset-lg-2 col-sm-12 col-xs-12">Recorded by the National Sample Survey Office</p>
+	</div>
+
+
+	<div class="container">
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Taking private tuitions at home or a privately owned institute, individually or within groups has become a norm. In recent years private tutoring emerged as major force as a result of both demand and market mechanisms. In fact, in terms of its nature, extent and importance it is comparable to the formal system of education or, it is like a shadow of the formal system. Mark Bray in his paper, The Shadow Education System: private tutoring and its implications for planners, writes-</p>
+
+		<p class="body-text-bold col-lg-10 offset-lg-1 col-sm-12 col-xs-12"><i>"Private tutoring acts as surrogate mother as schools became ineffective"</i></p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The reasons for this behaviour can be inferred as the deteriorating quality of teaching in schools. Parents and students seek private tuitions to pass examinations or crack competitive exams for which the schooling system cannot adequately provide. In sync with this trend, teaching professionals find private tutoring lucrative because of higher demand and salaries.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Having donned the hats of both a tutor (in college to increase my pocket money) and a student (all through middle and high school), I learnt how <b>error prone</b>, <b>mundane</b> and <b>intolerably lengthy</b> the process of finding reliable tutors could be for students. I felt a lot for this problem because I had personally ran into it so many times. Through my interaction with students, tutors and parents, couple of other complementary problems emerged which were screaming for a well designed solution.</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">With a vision to tame the chaotic nature of this industry and to promote a holistic teaching culture in the country I decided to build a mobile platform codenamed Tyutor ( inspired from pyoopil, the company I had interned for in the summer of 2015 )</p>
+
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">User Research</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Coming to the most interesting and exciting part of the build, actual interaction with the target audience. I interviewed students of ages <b>10 to 17</b> and private tutors having teaching experience ranging from <b>0 to 25 years</b>. I tried to keep the questions as open ended as possible, trying to understand the following:</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text-bold col-lg-10 offset-1">Why are private tuitions important, even when they are already being taught the same stuff in school?
+			</li>
+
+			<li class="body-text-bold col-lg-10 offset-1">How do students connect with tutors and decide their level of competence?</li>
+
+			<li class="body-text-bold col-lg-10 offset-1 col-sm-10 col-xs-3 offset-xs-1">
+				What is the average travel time the tutors and students have to shell out to reach the place of study?
+			</li>
+		</ul>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">It was soon clear that this design problem would be much harder to build for than I had thought earlier, namely because I was treating it just as a tutor discovery platform at first. However, throughout the research almost every student and tutor I interviewed, was hinting on how they were expecting a <b>platform which could do so much more</b>.</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="students_teachers.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Students and tutors are unable to schedule classes due to multiple commitments</p>
+	</div>
+
+
+
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">I realised the student set and the tutor set shared a many to many relationship, and generally both had a packed schedule, often moving from one class to another. <b>Finding a tutor and setting up a regular schedule for classes turned out to be pain point for the tutors and students alike.</b></p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Another problem which surfaced was the time, both parties had to waste in travel, <b>not because of lack of good tutors in certain regions but because of the sheer unawareness of the students of the region about these tutors.</b></p>
+	</div>
+
+
+	<div class="container">
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Forming a solution
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Interacting with the users and forming the personas,made clear their needs. I now knew what the platform should be incorporated with:</p>
+
+		<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1">
+				A proximity based search of tutors for the students.
+			</li>
+
+			<li class="body-text col-lg-10 offset-1">
+				A seamless way for students to connect with tutors and schedule classes.
+			</li>
+
+			<li class="body-text col-lg-10 offset-1">
+				A minimal interface and an overall generalist user interface to pertain to all age groups ( from students to parents )
+			</li>
+		</ul>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Here is a bird’s eye view of the flow that I finalised:
+
+
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="order_card.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">MAKE GRAPHIC HERE!!</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			I decided to keep a mobile only approach. Because a higher number of students and tutors I interviewed used android powered smart devices, I decided to design for an android app. A web app was on the charts too but I delayed it to a later stage, owing to the exponential growth of smartphone users in India.
+		</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="wireframes.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Pen and paper to the rescue</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Over the next 5 days I collaborated with sanchit sharma, a college mate to finalise the wireframes for the app, After that a week of making the app look pretty by working some magic in Sketch and Photoshop. For style guides I went completely with Google’s Material Design as it would have let me keep the development time minimum and also not lead to any compatibility issues.
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			To pertain to a generalist User Interface, I went with blue (with a lot of whitespace) as the branding colour, not just because it is the favourite colour of maximum people around the world but it is also known to invoke feelings of Trust and Intelligence, something I wanted the users to feel while using the app.
+		</p>
+
+		
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="acceptance_screen_main.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Make color palette here.
+		</p>
+	</div>
+
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">We finalised to divide the app into two modules, one for students and parents and the other for the tutors.
+		</p>
+
+		
+	</div>
+
+	
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Student Module
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			On firing up the app the student dashboard gets populated with list of tutors based on their proximity to the student location. The student also has quick access to the search functionality in the form of a FAB, the classes they have scheduled and the classes that have been marked complete by the student and the tutor alike. This would not only give the student an ‘in control’ feeling but also ease the access to all the important use cases for the app.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="dispatch_ticker.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">add student module here
+		</p>
+	</div>
+
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Search Screen
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			I iterated with a lot of ideas for this screen but was not able to build a search experience which could help the student zero down a tutor with maximum ease, majorly because there were a lot of variable when a student considers a tutor. I finally decided on a category based tabbed search which assumed every search to be a new one but also worked well if the student wanted to make changes to an existing one. The search categories on the left are in order of importance of parameters, the student keep in mind while searching for tutors. The order was derived while interviewing the users.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="dispatch_ticker.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">add search screen
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Tutor Card
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			The tutor card acts as a concise piece of information which lets the student consider the tutor in seconds. During the research I found out how the hourly charges of the tutor were variable depending on the subject and grade being taught . This posed as a new challenge, since it required a seamless way of information transfer which also had to be kept concise owing to the lack of real estate on the card. This made me come up with a new way of info visualisation which I so endearingly called ‘The Pellet’.
+		</p>
+	</div>
+
+
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="kitchen_full.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Add tutor card</p>
+	</div>
+
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-4 offset-lg-4 col-sm-12 col-xs-12" src="consumer_app.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Add pellet image here</p>
+	</div>
+
+
+	<div class="container">
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">A single pellet is enough to let the student know about the grade, subject and also the charges of the tutor, while occupying the least space on the card.
+		</div>
+
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Also, to evaluate the tutor's competence I decided to have star based rating system in place at first, but later scrapped it and brought the binary system of a ‘like’ to judge a tutor's skills. Different students might rate the competence level of a tutor differently based on the their personal previous knowledge of the subject. This would have caused higher level of discrepancies in the star based rating system, not letting a new students get a clear picture of the tutors skills. Hence I forced the students into either appreciating the teacher or not doing anything at all. A binary like based system would also ensure no bad rating of tutors on the platform. Teaching, as a profession is still held in high regard in India and I wanted to keep it that way.
+		</div>
+
+		
+
+	</div>
+
+
+
+
+	<div class="container">
+		<div class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Tutor Module
+		</div>
+
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			The tutor dashboard remains similar to the student dashboard in design except for the fact that the dashboard gets populated with class requests. On receiving a class request, the tutor can enter the edit class screen. The authority to finalise a class or make any changes to schedule once finalised is only granted to the tutor. This is deliberately done to demotivate the student in constantly changing the schedule once finalised and to also establish a more professional relationship amongst the two.
+		</div>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="in_stock.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Add tutor module here
+		</p>
+	</div>
+
+
+	<div class="container">
+
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Once the class is confirmed by the tutor, it gets added to their scheduled tab and simultaneously updated on the student side as well. A class gets added to the completed tab only when it has been marked complete by both parties.
+		</div>
+
+
+		<div class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Conclusion
+		</div>
+
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			This is my take on solving a problem thousands of Indian and now, South east Asian students and tutors face and promoting a strong tutor-student relationship. Had to pause the development on this app since it was hard finding time with my full-time job. In case you would like to contribute to this and are up for a collaboration, hit me up on twitter. 
+		</div>
+
+		<div class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Suggestion on how to make the product better are welcome 🙂
+		</div>
+
+
+
+	</div>
+
+
+	
+
+
+
+	
+
+
+	<div class="more">
+		<div class="container">
+			<a class="next-link float-left" href="">
+				<span class="oi oi-arrow-left"></span>
+				Previous
+
+			</a>
+			<a class="next-link float-right" href="">
+				Next
+				<span class="oi oi-arrow-right"></span>
+			</a>
+		</div>
+	</div>
+
+
+	<footer class="footer-class">
+		
+		<div class="container">
+			<p class="about-body-stalk">Stalk me on <a class="banner-link" href="">MEDIUM</a>, <a class="banner-link" href="">TWITTER</a>, <a class="banner-link" href="">LINKED-IN</a>  or <a class="banner-link" href="">GITHUB</a> </p>
+		</div>
+
+	</footer>
+
+</body>
+</html>
