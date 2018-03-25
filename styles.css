@@ -120,18 +120,22 @@ header{
 
 .card{
 	margin-bottom: 50px;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0);
+	transition: box-shadow 0.2s ease-out;
+	border-radius: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 
 
 .card-image{
-	width: 100%;
-	background-color: lightgrey;
-	height: 200px;
+	width: 80px;
+	background-color: white;
+	height: 80px;
 	margin-bottom: 10px;
 	border-radius: 4px;
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0);
-	transition: box-shadow 0.2s ease-out;
+	
 }
 
 .card-heading{
@@ -141,12 +145,8 @@ header{
 	color: #666;
 	transition: box-shadow 0.2s ease-out;
 	margin-bottom: 10px;
-	margin-top: 15px;
 }
 
-.card:hover .card-image{
-	box-shadow: 0px 0px 15px 0px rgba(2,2,20, 0.2);
-}
 
 .card:hover .card-heading{
 	color:#6763FF;
@@ -281,9 +281,9 @@ header{
 		padding: 15px;
 	}
 
-	.card-image{
+/*	.card-image{
 		height: 205px;
-	}
+	}*/
 
 } 
 
