@@ -281,6 +281,10 @@ header{
 		padding: 15px;
 	}
 
+	.card-image{
+		height: 205px;
+	}
+
 } 
 
 
