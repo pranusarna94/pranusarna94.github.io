@@ -84,9 +84,9 @@
 			</p>
 
 			<ul class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-				<li>Can i chose the dessert/drink of my choice?</li>
-				<li>How much would be the actual cost of this free Treat?</li>
-				<li>On days when I don’t feel like having the dessert, can I opt out of it?</li>
+				<li class="body-text col-lg-10 offset-1">Can I chose the dessert/drink of my choice?</li>
+				<li class="body-text col-lg-10 offset-1">How much would be the actual cost of this free Treat?</li>
+				<li class="body-text col-lg-10 offset-1">On days when I don’t feel like having the dessert, can I opt out of it?</li>
 			</ul>
 
 
@@ -96,40 +96,74 @@
 				Since Treats was a new product, the best way to understand the problems that could arise with it was to release it in the wild. To grow our member set quickly we decided to design the flow to maximise for purchases.
 			</p>
 
-
-			<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Buying Treats should be a Treat</p>
+			<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Buying Treats should be a Treat</p>
 
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
 				At first we just had one purchase flow in mind. A nice juicy banner on our homepage as the entry point to our Treats page explaining the membership in detail.
 			</p>
 
+		</div>
+
+		<div class="container-fluid no-padding">
+
+			<img class="img-responsive no-padding col-lg-12" src="treats-flows.png">
+
+			<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Buying Treats through the homepage banner</p>
+		</div>	
+
+		<div class="container">
+
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
 				However, we soon realised that this flow alone might not be the best in maximizing Treats purchases. Customers making orders on Zomato would be more inclined on purchasing the membership, once they realised that they could receive a free dessert or a drink with their order as well.This made us add us add the Treats subscription to the menu and the cart as well.
 			</p>
+		</div>
 
-			<p class="body-text-bold col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Ordering experience for Treats members</p>
+		<div class="container-fluid no-padding">
+
+			<img class="img-responsive no-padding col-lg-12" src="treats-menu-cart.png">
+
+			<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Buying Treats through the restaurant menu</p>
+		</div>	
+
+
+		<div class="container">
+
+			<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Ordering experience for Treats members</p>
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-				The free Treat is auto-added to a Treats members cart when they place an order online.
+				The free Treat is auto-added to a Treats members cart. As simple as that!
+			</p>
+		</div>
+
+		<div class="container-fluid no-padding">
+
+			<img class="img-responsive no-padding col-lg-12" src="member.png">
+
+			<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Free dessert is auto-added for Treats members</p>
+		</div>	
+
+		<div class="container">
+
+			<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Taking care of the edge cases</p>
+			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+				Adding the Treats purchase flow to the menu and the cart, gave rise to a lot of edge cases. This gave us the opportunity to think like developers and map out all cases before the mocks go to the devs.
 			</p>
 
-			<p class="body-text-bold col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Taking care of the edge cases</p>
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-				Adding the Treats purchase flow to the menu and the cart, gave rise to a lot of edge cases. We tried to identify and form a solution of each.
-			</p>
-
-			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-				What happens when I add Treats, then add more than one Treats items to my cart?
+				When the non-member adds Treats, then add more than one Treats items to cart?
 			</p>
 
 
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-				What happens if I add Treats and then remove it from cart?
+				When the non-member adds Treats and then removes it from cart?
 			</p>
 
 
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-				What happens when i add Treats to my cart and then remove the Free Treats from cart.
+				When the member removes the auto-added Treat from cart.
 			</p>
+
+
+			<iframe class="col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="https://marvelapp.com/152h4b36?emb=1&iosapp=false&frameless=false" width="390" height="755" allowTransparency="true" frameborder="0"></iframe>
 
 			<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
 				To share this logic of addition and removal of items from cart we represented the flows as pseudo-code for the devs. It was a proud moment when they complimented us on thinking through the flow completely and told us how significantly it decreased their dev time.
