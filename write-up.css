@@ -201,6 +201,17 @@ img{
 
 }
 
+.body-link{
+	color: #6763FF;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.body-link:hover{
+	text-decoration: underline;
+	color: #6763FF;
+}
+
 .banner-link{
 	color:white;
 	font-weight: 500;
