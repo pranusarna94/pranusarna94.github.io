@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#6763FF" />
+
+	<title>
+		Pranu Sarna - Zomato Order
+	</title>
+	<link rel="stylesheet" type="text/css" href="../write-up.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="../open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+
+</head>
+<body class="fade-in-class">
+	<header>
+		<div class="container">
+			<a href="/index.html" class="header-title-about  offset-lg-10 col-lg-1 col-xs-1">HOME</a>
+			<a href="/about.html" class="header-title-about col-lg-1 col-xs-1">ABOUT</a>
+		</div>
+	</header>
+
+	<!-- <div class="container-fluid">
+		<img class="col-12 banner-image img-responsive" src="treats-banner.png">
+	</div> -->
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-12" src="order-banner.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12"></p>
+	</div>	
+
+
+
+
+	<div class="container">
+
+
+		<p class="heading-1 col-lg-10 offset-lg-1 ">Ordering food online</p>
+
+
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">When a customer orders on Zomato , certain systems are brought to life. The restaurant managers accepts the order, invoicing happens in the background, the food is cooked and then the delivery personnel brings the order to the customer. There are many problems that can arise throughout these processes. Payment gateway failures, lengthy and confusing flows for building cart and delay in food reaching the customer are some of them.
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Our broader goal with this project was to identify and solve these suboptimal experiences. We did this by dividing the ordering food onlin journey in to three flows:
+		</p>
+
+		<ol class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text col-lg-10 offset-1"><b>Pre-checkout: </b>Customer deciding a restaurant and the dishes to order</li>
+			<li class="body-text col-lg-10 offset-1"><b>Checkout: </b>Building the cart and confirming the order</li>
+			<li class="body-text col-lg-10 offset-1"><b>Crystal: </b>Everything which happens after the customer has ordered online. We named it crystal since we wanted to be ‘crystal clear’ withe the customers here.</li>
+		</ol>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">We decided to specifically focus on the checkout and crystal flows with this project.</p>
+	</div>
+
+
+
+	<div class="container">
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Checkout flow</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Our goal was to reduce drop-offs when the customer is placing the order. We did this by separately optimising the flows for first time users (placing  their first order online) and returning users.</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-6 offset-lg-3" src="problem.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Where we were</p>
+	</div>	
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-6 offset-lg-3" src="solution.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Where we wanted to get</p>
+	</div>	
+
+
+
+
+	<div class="container">
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">First time users</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			A first time user is generally anxious about placing an order online since it is their first time using the service. Our goal is to walk them through the process by giving them clear visibility about the step they are in and the step that is coming up next. The user is also made aware of the fact that these processes are only for the first time and will make future checkouts faster.
+		</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="personal-details-flow.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Adding personal details for a first time user</p>
+	</div>	
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="first-time-payment-flow.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Payment flow for first time user</p>
+	</div>	
+
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Returning users</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			For returning users, we made the checkout flow faster by defaulting to  the pre-saved personal details and address details (if ordering from the same delivery sub-zone)
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="returning-user.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Details of the users are retained on cart when they come back to order</p>
+	</div>	
+	
+
+	<div class="container">
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Crystal flow (post ordering experience)</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Our goal with the post ordering part of the flow was to give exact and timely updates about the customer’s order to them. We also wanted to encourage the users to utilise the wait by giving back to the platform. Ask them to review the app, checkout new products (like <a class="body-link" href="../treats/zomato-treats">Zomato Treats</a>) or rate a previous order.
+		</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="crystal-flow.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Making sure the users are up to date with their order status</p>
+	</div>	
+
+	<div class="container">
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Solving for delayed orders
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Another problem that we tried to solve with crystal were delayed orders. Designing a solution which completely prevented delays was futile since a lot of variables(like cooking time & actual delivery time) were not in our control and would change depending on the physical reality of the restaurant. We thought of ways in which we could pacify the hungry customers through the app itslef.
+		</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-4 offset-lg-4" src="angry.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Customer reaction to delayed orders. Hungry + angry = Hangry</p>
+	</div>	
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-4 offset-lg-4" src="not-angry.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">We wanted to reassure the customers that there order was being actively tracked </p>
+	</div>	
+
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<b>The solution was two fold:</b>
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			1. Telling the user about the delay as soon the restaurant accepts the order with an increased delivery time (to know more about the restaurant side, <a class = "body-link" href="../zomato_services/zomato_for_restaurant_managers">read Zomato for restaurant managers</a>). This makes the users instantaneously aware of the reason for the delay and there is lesser load on the chat support team.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="delay-order-1.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Setting the right expectation beforehand results in less annoyed customers  </p>
+	</div>	
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			2. On getting to know that the order has not be delivered on time, we move the users directly to chat support. This was done to reassure the anxious users that the whereabouts of their order are being actively tracked down.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1" src="chat-support.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Moving the customer to chat support when order delayed</p>
+	</div>	
+
+
+
+	<div class="container">
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Learnings
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			The biggest takeaway for me with this project was how good design can solve for suboptimal business constructs as well. Since, at that time Zomato did not have their own delivery fleet, tracking of delivery personnel was impossible and that lead to frustrated customers when the order was not delivered on time. 
+			To curb the negative effects of a delayed order with the business constraint was a challenging yet fun project. 
+			We were also succesful at it as we saw the average rating of a delayed order increase, a clear indication that the users were less annoyed with delays.
+		</p>
+
+	
+	</div>
+
+	
+
+	<div class="container">
+		
+	</div>
+
+	
+
+</div>
+
+<div class="more">
+	<div class="container">
+		<a class="next-link float-left" href="">
+			<span class="oi oi-arrow-left"></span>
+			Previous
+
+		</a>
+		<a class="next-link float-right" href="../zomato_services/zomato_for_restaurant_managers">
+			Next
+			<span class="oi oi-arrow-right"></span>
+		</a>
+	</div>
+</div>
+
+
+<footer class="footer-class">
+
+	<div class="container">
+		<p class="about-body-stalk">Stalk me on <a class="banner-link" href="">MEDIUM</a>, <a class="banner-link" href="">TWITTER</a>, <a class="banner-link" href="">LINKED-IN</a>  or <a class="banner-link" href="">GITHUB</a> </p>
+	</div>
+
+</footer>
+
+</body>
+</html>
