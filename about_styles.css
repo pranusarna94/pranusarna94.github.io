@@ -63,6 +63,7 @@ img{
 .header-title-work:hover {
 	color: #6763FF;
 	opacity: 1;
+	text-decoration: underline;
 
 }
 

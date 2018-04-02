@@ -58,7 +58,7 @@ header{
 .header-title-about:hover {
 	color: #6763FF;
 	opacity: 1;
-
+	text-decoration: underline;
 }
 
 
@@ -141,7 +141,7 @@ header{
 	transition: box-shadow 0.2s ease-out;
 	border-radius: 10px;
 	background-color: white;
-	min-height: 220px;
+	min-height: 227px;
 	border: 1px solid #efefef; 
 }
 
