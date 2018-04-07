@@ -110,6 +110,14 @@ header{
 	margin-bottom: 30px;
 }
 
+.body-link{
+	color:#6763FF;
+	text-decoration: none;
+}
+
+.body-link:hover{
+	text-decoration: underline;
+}
 
 
 
@@ -132,7 +140,7 @@ header{
 	transition: box-shadow 0.2s ease-out;
 	border-radius: 10px;
 /*	padding-right: 15px;
-	padding-left: 15px;*/
+padding-left: 15px;*/
 }
 
 .card-internal{
@@ -260,7 +268,7 @@ header{
 
 
 /*/////////////////////////*/
-/*css for small devices < 600px*/
+/*css for small screens < 600px*/
 /*//////////////////////////*/
 @media only screen and (max-width: 600px) {
 
@@ -301,11 +309,28 @@ header{
 		padding: 15px;
 	}
 
-/*	.card-image{
-		height: 205px;
-	}*/
 
 } 
+
+/*//////////////////////////////////*/
+/*css for extra large screens > 1330*/
+/*//////////////////////////////////*/
+@media only screen and (min-width: 1200px) {
+	.heading-1{
+		font-size: 48px;
+		line-height: 70px;
+	}
+
+	.card-heading{
+		font-size: 23px;
+
+	}
+
+	.card-body{
+		font-size: 18px;
+		line-height: 25px;
+	}
+}
 
 
 
