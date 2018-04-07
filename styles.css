@@ -266,6 +266,12 @@ padding-left: 15px;*/
 
 }
 
+@media only screen and (min-width: 1200px) {
+	.about-body-stalk{
+		font-size: 12.8px;
+	}
+}
+
 
 /*/////////////////////////*/
 /*css for small screens < 600px*/
