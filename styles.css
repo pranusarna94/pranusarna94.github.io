@@ -148,7 +148,7 @@ padding-left: 15px;*/
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0);
 	transition: box-shadow 0.2s ease-out;
 	border-radius: 10px;
-	background-color: white;
+	background: linear-gradient(to bottom, #fff, #fcfcfc);
 	min-height: 227px;
 	border: 1px solid #efefef; 
 }
