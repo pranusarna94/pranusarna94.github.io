@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#6763FF" />
+
+	<title>
+		Pranu Sarna - Zomato Treats
+	</title>
+	<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
+	<link rel="stylesheet" type="text/css" href="../write-up.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="../open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+
+</head>
+<body class="fade-in-class">
+	<header>
+		<div class="container">
+			<a href="/" class="header-title-about  offset-lg-10 col-lg-1 col-xs-1">HOME</a>
+			<a href="/about" class="header-title-about col-lg-1 col-xs-1">ABOUT</a>
+		</div>
+	</header>
+
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-12 col-xl-8 offset-xl-2" src="Grab_app_banner.png">
+
+	</div>
+
+	<div class="container">
+
+
+		<p class="heading-1 col-lg-10 offset-lg-1 ">Grab Food merchant app</p>
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The brief</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Build a channel which lets merchants action upon an order made by the customers on the Grab Food app. 
+		</p>
+
+
+	</div>
+
+
+
+	<div class="container">
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Understanding the users</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">To understand the restaurant operations I visited 3 restaurants in my city during lunch time and was fortunate enough to witness these restaurants at their peak order volume. Being a fly on the wall for these restaurants taught me a pattern in which restaurants generally work in and I believe this pattern is more or less the same throughout the world. 
+		</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-10 offset-lg-1 col-xl-8 offset-xl-2" src="flow_chart.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">How restaurant generally work</p>
+	</div>	
+
+	<div class="container" >
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			Through my visits to these restaurants, I also tried to understand the users for this app. Here is what I observed. Constantly increasing new orders, customers calling to know the status of or to make changes to their orders, back and forth with the kitchen to pass the new orders or check up on the old ones, keeping a track of the delivery executives, managing inventory. Their job was chaotic and tough!
+		</p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class="img-responsive no-padding col-lg-8 offset-lg-2 col-xl-6 offset-xl-3" src="busy-managers.png">
+
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Restaurant managers are busy people</p>
+	</div>	
+
+
+	<div class="container">
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Defining the problem(s)</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">On understanding the managers and the circumstances they operate in, I was in a better position to define the goals for the app. Here they go:</p>
+
+		<ol class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
+			<li class="body-text-bold col-lg-10 offset-1">The app should give clear visibility of in-kitchen orders, incoming new orders and past orders. It should also let the manager action upon these orders.</li>
+
+			<li class="body-text-bold col-lg-10 offset-1">The app should ensure that the major task of searching and identifying an order is easy and quick.
+			</li>
+
+		</ol>
+
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12 ">The solution</p>
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">In kitchen orders</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Orders which are currently being prepared are housed in the first tab of the app. This is done as in kitchen orders require more attention and immediate actioning. </p>
+		
+
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12 col-xl-6 offset-xl-3" src="preparing-tab.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Orders which need immediate actioning are shown upfront</p>
+	</div>
+
+
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Incoming new orders</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The new orders button is a gloabl level element which means it can draw over other apps. This button is designed to draw attention of the users but at the same time not distract them from a task which they might already be performing on the phone. This is done by momentarily ringing the phone (to draw attention if user is away from phone) and by making the button flash by inverting its colour (to draw attention when the user is using the phone). </p>
+
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12 col-xl-8 offset-xl-2" src="New-order-button.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">The "New Order" button flashes by inverting colour to draw attention.</p>
+	</div>
+
+	<div class="container">
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> On accepting an order, the manager is presented with a pop-up in which they can change the preparation time for the order. This is done as the managers themselves have the best idea about the physical reality of their kitchen and this time can be used by the Grab system to precisely allot a delivery rider for the order. </p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Once the order is accepted, it is appended at the bottom of the list and the view window is scrolled to that order. This is done to make sure that the restaurant manager adds this order to their POS and passes it on to the kitchen. The managers can quicly view the order details which further aids in the process of adding the order to the POS. </p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class=" img-responsive no-padding col-lg-12 col-sm-12 col-xs-12 col-xl-12 " src="accepted_flow.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Manager accepting an order</p>
+	</div>
+
+	<div class="container">
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> The system can be optimised to select a driver based on the flow chart below </p>
+	</div>
+
+	<div class="container-fluid no-padding">
+
+		<img class=" img-responsive no-padding col-lg-12 col-sm-12 col-xs-12 col-xl-8 offset-xl-2" src="assigning-a-rider.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Logic on how the system can allot divers to an order</p>
+	</div>
+
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Rejecting an order
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> The manager may reject an order due to many reasons. Two reasons which stood out the most when I was talking to the managers were "Items out of stock" and "Kitchen overloaded". I tried to think of ways which would help the restaurant cut down on rejections.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="order-rejected.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">Items out of stock</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			The item which is marked as out of stock, is taken off the menu in the customer app. This will make sure that rejection don't happen due to these items in the future.
+		</p>	
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="High order volume.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">When the restaurant is facing high order volume we give them some breathing room.</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			When the restaurant is facing higher order volume we give them a breathing room by queing up orders and sending them to the restaurant when the breathing room is over. The time period of 10 minutes is based on intuition and can be finely tweaked through experimentation.
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			The customers are made aware about this delay on their apps. 
+		</p>		
+		
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="disclaimer.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12"> Setting the right expectations with the customers.
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Making search and identification of orders easier
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Since managers are busy people every second of their time is valuable. Searching and identifaction of an order was important for the managers to communicate about it with their kitchen, the Grab rider and Grab support. This was done by showing the orders which matter the most upfront. 
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			The restaurant managers communicate with their kitchen about an order using the order items. Hence, to aid this communication between the managers and the kitchen it was important to surface the items on the order card. 
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class="img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="order-card.png">
+		<p class="image-caption text-center col-lg-6 offset-lg-3 col-sm-12 col-xs-12">The order card makes it easier to identify an order.
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			The search bar on the active orders tab helps the manager quickly search for an order by the order-id (when communicating with support) or by the rider name (when the rider comes to pickup order). 
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="preparing-tab.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Managers may search for an order using the rider name or the order ID
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="heading-2 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Other screens and flows
+		</p>
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Grab rider reached the restaurant
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Once a Grab rider reaches the restaurant, the order card for that rider changes to "Rider reached" and is added to the top of the list as this order now needs immediate actioning. The manager identifes the rider based on their name. Once the order is dispatched, it moves from the "Preparing" tab to the "All orders" tab. 
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-10 offset-lg-1 col-sm-12 col-xs-12" src="rider-reached.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">Managers handing over the orders to the riders.
+		</p>
+	</div>
+
+	<div class="container">
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Making managers realise the implications of a delayed order
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			To make sure that a manager does not mindlessly keep adding time for preparation, a warning sign is surfaced once they go over a certain threshold. 
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-8 offset-lg-2 col-sm-12 col-xs-12" src="warning.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> Warning surfaced to make sure that managers don't mindlessly keep adding time. 
+		</p>
+	</div>
+
+	<div class="container">
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			All orders
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			The all orders has all the orders made to the restaurant till date and can be filtered based on time and the status of the order.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="all-orders.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The "All orders" tab
+		</p>
+	</div>
+
+	<div class="container">
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			The menu tab
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Another insight from my visits to the restaurants was how dynamic their menu was. As the items kept running out of inventory it was important to give the restaurant managers a quick way to mark items out of stock. The managers can search for items through their menu and mark them back in stock as well.
+		</p>
+	</div>
+
+	<div class="container-fluid no-padding">
+		<img class=" img-responsive no-padding col-lg-6 offset-lg-3 col-sm-12 col-xs-12" src="menu-tab.png">
+		<p class="image-caption text-center col-lg-10 offset-lg-1 col-sm-12 col-xs-12">The "Menu" tab
+		</p>
+	</div>
+
+	<div class="container">
+
+		<p class="heading-3 col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Learnings
+		</p>
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			This experience of crafting an app for restaurant managers made me realise how important and tough their job is. Also, indulging in even a little bit of user research makes the final design better by miles as that makes you empathise with the users and helps understand their problem better. If I had a little more time on my hands I would have loved to understand the usability issues with the app by doing some scenario based guirella user testing. Prototyping the animations for the "New Order" and "Order dispatched" flows would have come second.
+		</p>
+
+		<p class="body-text col-lg-10 offset-lg-1 col-sm-12 col-xs-12"> 
+			Thanks for reading!
+		</p>
+	</div>
+
+
+	<footer class="footer-class">
+		
+		<div class="container">
+			<p class="about-body-stalk">Stalk me on <a class="banner-link" href="https://medium.com/@pranusarna">MEDIUM</a>, <a class="banner-link" href="https://twitter.com/sarna_pranu">TWITTER</a>, <a class="banner-link" href="https://www.linkedin.com/in/pranu-sarna-2679532a/">LINKED-IN</a>  or <a class="banner-link" href="https://github.com/pranusarna94">GITHUB</a> </p>
+		</div>
+
+	</footer>
+
+</body>
+</html>
